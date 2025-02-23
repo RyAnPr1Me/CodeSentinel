@@ -1,0 +1,43 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore `.env` files for environment variables (never commit these)
+.env
+
+# Ignore coverage and testing files
+*.coverage
+*.log
+*.tox
+*.nox
+*.coverage
+*.hypothesis/
+.cache/
+
+# Ignore IDE/editor specific files (for VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Ignore package distribution files
+*.tar.gz
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore generated project files
+generated_project/
+
+# Ignore zip files (if you are generating them but not committing them)
+*.zip
+
+# Ignore MacOS-specific files
+.DS_Store
+
+# Ignore node_modules directory if you use frontend JS libraries
+node_modules/
